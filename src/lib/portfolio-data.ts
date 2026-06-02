@@ -1,147 +1,357 @@
-import { Bot, BrainCircuit, Code2, Cpu, LineChart, MonitorSmartphone, ShieldCheck, Smartphone, Sparkles, Wand2 } from "lucide-react";
+import {
+	Bot,
+	BrainCircuit,
+	Code2,
+	Cpu,
+	LineChart,
+	MonitorSmartphone,
+	ShieldCheck,
+	Smartphone,
+	Sparkles,
+	Wand2,
+} from "lucide-react";
 
 export const profile = {
-  name: "Mohadese Ghadimi",
-  title: "Frontend & AI Product Engineer",
-  subtitle: "I build intelligent, Persian-first products across web, mobile, AI platforms, Web3, dashboards, and real-time interfaces.",
-  email: "mohadese.ghadimi@gmail.com",
-  linkedin: "https://www.linkedin.com/in/mohadese-ghadimi/",
-  github: "#",
+	name: "Mohadese Ghadimi",
+
+	title:
+		"Senior Software Engineer | AI Products, Fintech, Cloud & High-Performance Systems",
+
+	subtitle:
+		"Software engineer with 9+ years of experience building AI platforms, fintech products, gaming ecosystems, real-time systems, and enterprise applications. Specialized in scalable architecture, performance optimization, and product engineering.",
+
+	email: "mohadese.ghadimi@gmail.com",
+
+	linkedin: "https://www.linkedin.com/in/mohadese-ghadimi/",
+
+	github: "https://github.com/mohadesegh",
 };
 
 export const bootLines = [
-  "Initializing Mohadese OS...",
-  "Loading frontend architecture...",
-  "Loading AI product systems...",
-  "Loading Android experience...",
-  "Loading Web3 interfaces...",
-  "Optimizing Persian-first UI engine...",
-  "Portfolio ready."
+	"Initializing Mohadese OS...",
+	"Loading frontend architecture...",
+	"Loading AI product systems...",
+	"Loading Android experience...",
+	"Loading Web3 interfaces...",
+	"Optimizing Persian-first UI engine...",
+	"Portfolio ready.",
 ];
 
 export const metrics = [
-  { value: "6+", label: "Years building software" },
-  { value: "20+", label: "Android apps built" },
-  { value: "1000+", label: "AI product users" },
-  { value: "4", label: "Android experiences" },
+	{
+		value: "9+",
+		label: "Years Building Production Software",
+	},
+
+	{
+		value: "20+",
+		label: "Applications Delivered",
+	},
+
+	{
+		value: "500+",
+		label: "Active Users Supported Per Platform",
+	},
+
+	{
+		value: "5+",
+		label: "Engineering Teams Led",
+	},
 ];
 
 export const experiences = [
-  {
-    company: "Hoosh",
-    role: "Frontend Developer",
-    period: "Jan 2026 — Present",
-    signal: "AI Products",
-    scene: "AI Agent Platform",
-    description: "Building CRM, captcha, analytics, and gamified data-collection systems for AI agents. Work includes Persian-first product UX, large real-time data rendering, canvas layers, and reusable core layouts.",
-    stack: ["React", "Next.js", "TypeScript", "Tailwind", "shadcn/ui", "Zustand", "GSAP"],
-    highlights: ["Built Persian-first AI workflows", "Rendered large real-time datasets without lag", "Designed canvas/layer interaction systems", "Supported 1000+ users"],
-  },
-  {
-    company: "Infinite8",
-    role: "Senior Frontend Developer",
-    period: "Aug 2024 — Mar 2025",
-    signal: "Web3 / Gaming",
-    scene: "Game + Marketplace Ecosystem",
-    description: "Developed LandRocker website, admin panel, marketplace, sandbox-like game interfaces, and Telegram Mini App product flows for a Dubai-based gaming/Web3 ecosystem.",
-    stack: ["React", "Next.js", "TypeScript", "Wagmi", "Ethers", "RainbowKit", "Charts"],
-    highlights: ["Built wallet-connected flows", "Delivered marketplace and admin modules", "Worked on game-like frontend systems", "Improved Web3 product UX"],
-  },
-  {
-    company: "Coin Iran",
-    role: "Frontend Developer",
-    period: "Previous Experience",
-    signal: "Crypto / Content",
-    scene: "Crypto Product Interfaces",
-    description: "Built production frontend features for crypto-related products, content systems, and responsive web experiences.",
-    stack: ["React", "TypeScript", "REST APIs", "Responsive UI"],
-    highlights: ["Created production UI", "Integrated API-driven screens", "Worked with crypto product requirements"],
-  },
-  {
-    company: "Android Development",
-    role: "Android Developer",
-    period: "4 separate roles",
-    signal: "Mobile",
-    scene: "Mobile Product Builder",
-    description: "Built many Android applications across multiple professional roles, combining mobile UI, API integration, and product-focused implementation.",
-    stack: ["Android", "Java/Kotlin", "APIs", "Mobile UI", "App Architecture"],
-    highlights: ["Built 20+ apps", "Shipped mobile-first experiences", "Connected apps to real APIs"],
-  },
-];
+	{
+		company: "Hoosh Smart Text Processing",
 
+		role: "Senior Software Engineer",
+
+		period: "2026 — Present",
+
+		signal: "AI Products",
+
+		scene: "AI Data & Annotation Platforms",
+
+		description:
+			"Building AI-powered data collection, annotation, validation, workforce management, and workflow automation systems. Focused on OCR, NLP, audio timestamping, real-time data processing, Canvas tooling, and Persian-first user experiences.",
+
+		stack: [
+			"React",
+			"Next.js",
+			"TypeScript",
+			"Canvas API",
+			"WebSockets",
+			"Zustand",
+			"Tailwind",
+		],
+
+		highlights: [
+			"Built OCR, handwriting recognition, and audio timestamping workflows",
+			"Designed layered Canvas-based annotation tools",
+			"Developed RBAC, Timesheet, Workflow and Workforce platforms",
+			"Created reusable RTL-first architecture for Persian products",
+		],
+	},
+
+	{
+		company: "CoinIran",
+
+		role: "Senior Software Engineer",
+
+		period: "Project Based",
+
+		signal: "Fintech",
+
+		scene: "Prediction Markets & Trading",
+
+		description:
+			"Led frontend development for prediction markets, trading systems, wallets, portfolio management, and authentication platforms.",
+
+		stack: [
+			"React",
+			"Next.js",
+			"TypeScript",
+			"GraphQL",
+			"Wagmi",
+			"WalletConnect",
+			"Ethers.js",
+		],
+
+		highlights: [
+			"Built a Polymarket-inspired prediction platform",
+			"Developed exchange, trading, wallet and portfolio systems",
+			"Led frontend architecture and design system implementation",
+			"Optimized expensive market calculations to eliminate UI blocking",
+		],
+	},
+
+	{
+		company: "Infinite8",
+
+		role: "Lead Software Engineer",
+
+		period: "2024 — 2025",
+
+		signal: "Gaming",
+
+		scene: "Web3 Gaming Ecosystem",
+
+		description:
+			"Led frontend development for marketplaces, staking systems, Play-to-Earn products, Telegram Mini Apps, and Three.js experiences.",
+
+		stack: [
+			"React",
+			"Next.js",
+			"TypeScript",
+			"Three.js",
+			"WebSockets",
+			"WebGL",
+		],
+
+		highlights: [
+			"Led an 11-member frontend team",
+			"Built marketplace, staking and gaming systems",
+			"Developed Telegram Mini App miner experience",
+			"Improved application performance by 20%",
+		],
+	},
+
+	{
+		company: "Ledgersi",
+
+		role: "Lead Software Engineer",
+
+		period: "2023 — 2024",
+
+		signal: "Multiplayer",
+
+		scene: "Unity + Web Platform",
+
+		description:
+			"Built multiplayer gaming platforms with real-time synchronization between web, mobile, and Unity clients.",
+
+		stack: ["Flutter", "React", "TypeScript", "Unity", "WebSockets"],
+
+		highlights: [
+			"Led a 4-member engineering team",
+			"Built cross-platform Flutter applications",
+			"Implemented real-time synchronization",
+			"Managed sprint planning and delivery",
+		],
+	},
+
+	{
+		company: "TalentVerse",
+
+		role: "Technical Project Manager",
+
+		period: "2022 — 2023",
+
+		signal: "Creator Economy",
+
+		scene: "Monetization Platform",
+
+		description:
+			"Managed delivery of a Patreon-inspired creator platform enabling content monetization, subscriptions, and community support.",
+
+		stack: ["Agile", "Scrum", "Jira", "Product Management"],
+
+		highlights: [
+			"Managed a 10-member team",
+			"Led sprint planning and delivery",
+			"Improved development workflow efficiency",
+			"Coordinated product roadmap execution",
+		],
+	},
+];
 export const projects = [
-  {
-    title: "AI CRM Platform",
-    icon: Bot,
-    type: "AI / Enterprise",
-    year: "2026",
-    description: "Persian-first CRM for managing AI agent workflows, users, analytics, and operational data.",
-    challenge: "Large real-time data rendering without lag.",
-    solution: "Optimized state boundaries, reusable layouts, careful table rendering, and lean UI composition.",
-    stack: ["Next.js", "React", "TypeScript", "Zustand", "shadcn/ui"],
-  },
-  {
-    title: "Captcha System",
-    icon: ShieldCheck,
-    type: "AI Data Platform",
-    year: "2026",
-    description: "Interactive captcha and validation workflows for Persian data collection and agent improvement.",
-    challenge: "Persian UX where common libraries were not enough.",
-    solution: "Custom validation, RTL-first components, and product-specific interaction patterns.",
-    stack: ["React", "TypeScript", "Tailwind", "Canvas"],
-  },
-  {
-    title: "Analytics Dashboard",
-    icon: LineChart,
-    type: "Dashboard",
-    year: "2026",
-    description: "High-density analytics interface with filtering, summaries, charts, and responsive views.",
-    challenge: "Complex data visibility with clean UX.",
-    solution: "Separated data, presentation, and interaction logic into optimized feature modules.",
-    stack: ["React", "Charts", "TypeScript", "REST APIs"],
-  },
-  {
-    title: "Agent Training Game",
-    icon: Sparkles,
-    type: "Gamified AI Data Collection",
-    year: "2026",
-    description: "Game-like interface that collects correct data for AI agents while keeping users engaged.",
-    challenge: "Make data collection accurate, fast, and enjoyable.",
-    solution: "Swipe interactions, feedback loops, animation, and validation-driven flows.",
-    stack: ["React", "GSAP", "TypeScript", "Tailwind"],
-  },
-  {
-    title: "OCR Platform",
-    icon: Wand2,
-    type: "AI / OCR",
-    year: "2026",
-    description: "Interfaces for image-to-text and document review/correction workflows with Persian text handling.",
-    challenge: "Persian OCR correction and document-heavy UI.",
-    solution: "Built custom correction screens, RTL flows, and focused review interactions.",
-    stack: ["Next.js", "React", "OCR UI", "RTL"],
-  },
-  {
-    title: "Web3 Marketplace",
-    icon: Cpu,
-    type: "Web3",
-    year: "2024–2025",
-    description: "Marketplace and wallet-connected product flows for a gaming/Web3 ecosystem.",
-    challenge: "Smooth transaction-aware wallet UX.",
-    solution: "Integrated wallet flows with clear state feedback and product-specific Web3 components.",
-    stack: ["Wagmi", "Ethers", "RainbowKit", "React", "Next.js"],
-  },
+	{
+		title: "AI Annotation Platform",
+
+		icon: BrainCircuit,
+
+		type: "AI Platform",
+
+		year: "2026",
+
+		description:
+			"Enterprise-grade platform for OCR, handwriting recognition, audio timestamping, NLP annotation, and AI data collection.",
+
+		challenge:
+			"Build scalable Persian-first annotation workflows with complex Canvas interactions.",
+
+		solution:
+			"Created reusable Canvas tooling, real-time updates, workflow automation, and RTL-first architecture.",
+
+		stack: ["React", "Next.js", "Canvas API", "WebSockets", "TypeScript"],
+	},
+
+	{
+		title: "Prediction Market Platform",
+
+		icon: LineChart,
+
+		type: "Fintech",
+
+		year: "2025",
+
+		description:
+			"Polymarket-inspired platform supporting trading, prediction markets, portfolios, and wallet integrations.",
+
+		challenge: "Complex pricing calculations and trading interactions.",
+
+		solution:
+			"Optimized rendering and calculation flows to keep the UI responsive.",
+
+		stack: ["React", "Next.js", "GraphQL", "Wagmi", "WalletConnect"],
+	},
+
+	{
+		title: "Web3 Gaming Ecosystem",
+
+		icon: Cpu,
+
+		type: "Gaming",
+
+		year: "2024",
+
+		description:
+			"Marketplace, staking, Play-to-Earn products, and Telegram Mini Apps.",
+
+		challenge: "Real-time interactions and high-performance rendering.",
+
+		solution: "Built optimized frontend architecture and animation pipelines.",
+
+		stack: ["React", "Next.js", "Three.js", "WebSockets"],
+	},
+
+	{
+		title: "Multiplayer Gaming Platform",
+
+		icon: Smartphone,
+
+		type: "Gaming",
+
+		year: "2023",
+
+		description:
+			"Unity-integrated multiplayer gaming platform with web and mobile clients.",
+
+		challenge: "Real-time synchronization between multiple clients.",
+
+		solution: "WebSocket-based architecture with shared game state.",
+
+		stack: ["Flutter", "React", "Unity", "WebSockets"],
+	},
 ];
 
 export const skillClusters = [
-  { title: "Frontend", icon: Code2, items: ["React", "Next.js", "TypeScript", "Tailwind", "shadcn/ui", "SSR/ISR", "GSAP"] },
-  { title: "AI Products", icon: BrainCircuit, items: ["OCR", "Voice AI", "Text-to-Image", "Agent Tools", "CRM", "Analytics"] },
-  { title: "Mobile", icon: Smartphone, items: ["Android", "Java/Kotlin", "Mobile UI", "API Integration", "App Architecture"] },
-  { title: "Product Systems", icon: MonitorSmartphone, items: ["Dashboards", "Games", "Marketplaces", "Admin Panels", "Data Tools"] },
-];
+	{
+		title: "Architecture",
+		icon: Cpu,
 
+		items: [
+			"Software Architecture",
+			"System Design",
+			"Distributed Systems",
+			"Cloud Infrastructure",
+			"Performance Engineering",
+		],
+	},
+
+	{
+		title: "Frontend",
+		icon: Code2,
+
+		items: ["React", "Next.js", "TypeScript", "GraphQL", "WebSockets"],
+	},
+
+	{
+		title: "AI Platforms",
+		icon: BrainCircuit,
+
+		items: [
+			"OCR",
+			"Annotation Platforms",
+			"NLP",
+			"Audio Timestamping",
+			"Human-in-the-loop Systems",
+		],
+	},
+
+	{
+		title: "Gaming & Real-Time",
+		icon: MonitorSmartphone,
+
+		items: [
+			"Three.js",
+			"Flutter",
+			"Unity Integration",
+			"Real-Time Systems",
+			"WebGL",
+		],
+	},
+];
 export const commands = [
-  { command: "about", value: "Frontend & AI Product Engineer building scalable interfaces, AI tools, Android apps, and Web3 products." },
-  { command: "skills", value: "React, Next.js, TypeScript, Tailwind, GSAP, Android, Web3, AI product platforms." },
-  { command: "focus", value: "Persian-first products, real-time data, dashboards, canvas layers, and high-quality UX." },
-  { command: "contact", value: "mohadese.ghadimi@gmail.com" },
+	{
+		command: "about",
+		value:
+			"Senior Software Engineer building AI products, fintech platforms, gaming ecosystems, and enterprise applications.",
+	},
+
+	{
+		command: "specialties",
+		value:
+			"Software Architecture, AI Platforms, Fintech Systems, Real-Time Applications, Performance Engineering.",
+	},
+
+	{
+		command: "stack",
+		value:
+			"React, Next.js, TypeScript, GraphQL, WebSockets, Three.js, Flutter, Cloud Infrastructure.",
+	},
+
+	{
+		command: "contact",
+		value: "mohadese.ghadimi@gmail.com",
+	},
 ];

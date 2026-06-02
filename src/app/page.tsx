@@ -325,10 +325,10 @@ function Hero() {
 			<div className='absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(56,189,248,.13),transparent_28%),radial-gradient(circle_at_80%_30%,rgba(99,102,241,.14),transparent_30%),linear-gradient(to_bottom,transparent,rgba(0,0,0,.85))]' />
 			<div className='relative mx-auto grid w-full max-w-7xl gap-12 lg:grid-cols-[1.1fr_.9fr] lg:items-center'>
 				<div>
-					<div className='hero-kicker mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/60 backdrop-blur-xl'>
+					{/* <div className='hero-kicker mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/60 backdrop-blur-xl'>
 						<Sparkles size={16} /> AI OS Portfolio / Press{" "}
 						<b className='text-white'>/</b> for commands
-					</div>
+					</div> */}
 					<h1 className='overflow-hidden text-6xl font-black leading-[0.86] tracking-[-0.08em] sm:text-8xl lg:text-9xl'>
 						<span className='hero-word inline-block'>
 							{profile.name.split(" ")[0]}
@@ -362,12 +362,12 @@ function Hero() {
 						<span className='absolute right-5 top-12 h-2.5 w-2.5 rounded-full bg-emerald-300 shadow-[0_0_24px_rgba(110,231,183,.8)]' />
 					</div>
 					<div className='orb-core h-64 w-64 rounded-full' />
-					<div className='absolute bottom-10 left-8 rounded-3xl border border-white/10 bg-black/45 p-4 backdrop-blur-xl'>
+					{/* <div className='absolute bottom-10 left-8 rounded-3xl border border-white/10 bg-black/45 p-4 backdrop-blur-xl'>
 						<p className='text-xs uppercase tracking-[.25em] text-white/35'>
 							Core Signal
 						</p>
 						<p className='mt-1 font-bold'>Persian-first AI interfaces</p>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>
