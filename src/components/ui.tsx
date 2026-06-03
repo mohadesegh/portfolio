@@ -6,7 +6,6 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function SectionTitle({ eyebrow, title, text }: { eyebrow: string; title: string; text?: string }) {
-  //fsefedsfrd
   return (
     <div className="mx-auto max-w-5xl text-center">
       <p className="text-xs font-bold uppercase tracking-[0.34em] text-white/35">{eyebrow}</p>
